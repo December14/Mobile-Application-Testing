@@ -7,11 +7,11 @@ Full-fledged testing of a mobile application on the Android platform. For testin
   - For any one module that you define, write a test suite with cases
 
 ### Solution :
-- #### [Checklist](https://docs.google.com/spreadsheets/d/1ZZPCULtm-FOGzgMmUAF12G0CKvoMEZvUsibOql6A9ao/edit?usp=sharing)
-- #### [Test Suit](Mobile_App_Cases.csv)
+ #### [Checklist](https://docs.google.com/spreadsheets/d/1ZZPCULtm-FOGzgMmUAF12G0CKvoMEZvUsibOql6A9ao/edit?usp=sharing)
+ #### [Test Suit](Mobile_App_Cases.csv)
 
 ### Task 2 :
 - On the basis of the written documentation, create defect reports
 
 ### Solution :
-- #### [Bug Reports](Mobile_App_BugReports.csv)
+#### [Bug Reports](Mobile_App_BugReports.csv)
