@@ -1,0 +1,180 @@
+id,title,description,preconditions,postconditions,tags,priority,severity,type,behavior,automation,status,is_flaky,layer,steps_type,steps_actions,steps_result,steps_data,milestone_id,milestone,suite_id,suite_parent_id,suite,suite_without_cases
+,,,,,,,,,,,,,,,,,,,,22,9,"Mobile App Testing. Pavel Polyakov",1
+225,"Create New TO-DO","Создание новой таски","Открыто приложение TO-DO-MVP",,,high,normal,functional,positive,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести текст в Title
+3. Ввести текст в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Текст в Title отображается
+3. Текст в Body отображается
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+226,"Create New TO-DO with numbers in Title and Body","Создание новой таски c числами в названии и теле","Открыто приложение TO-DO-MVP",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести текст с числами в Title
+3. Ввести текст с числами в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Текст и числа в Title отображаются
+3. Текст и числа в Body отображаются
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+227,"Divider displayed below Body in New TO_DO","Разграничительная линия под телом запроса при создании новой таски отображается соотвественно ожиданиям","Открыто приложение TO-DO-MVP",,,low,normal,usability,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Убедиться что разделительная черта находится под Body
+","1. Открывается экран создания новой таски
+2. Разделительная черта находится под Body и подсвечивается при нажатии на поле ввода
+","1. 
+2. Enter your TO-DO here. = Body
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+228,"Required and optional fields are displayed differently in New TO-DO","Обязательные и необязательные поля отображаются различным способом при создании новой таски","Открыто приложение TO-DO-MVP",,,low,normal,usability,positive,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Убедиться что обязательные для заполнения поля отличаются от необязательных
+","1. Открывается экран создания новой таски
+2. Обязательные для заполнения поля визуально отличаются от необязательных
+","1. 
+2. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+229,"Create New TO-DO using stickers in Title","Создание новой таски со стикером в названии","Открыто приложение TO-DO-MVP",,,low,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести стикер в Title
+3. Ввести текст в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Стикер в Title отображается
+3. Текст в Body отображается
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+230,"Create New TO-DO using GIF in Body","Создание новой таски с гифкой в теле","Открыто приложение TO-DO-MVP",,,low,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести текст в Title
+3. Ввести GIF в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Текст в Title отображается
+3. GIF в Body отображается
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+231,"Create New TO-DO with link in Body","Создание новой таски со ссылкой в теле","Открыто приложение TO-DO-MVP",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести текст в Title
+3. Ввести link в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Текст в Title отображается
+3. Link в Body отображается
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+232,"Create New TO-DO with link in Title","Создание новой таски со ссылкой в названии","Открыто приложение TO-DO-MVP",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести link в Title
+3. Ввести текст в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. link в Title отображается
+3. Текст в Body отображается
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+233,"Create New TO-DO without Body","Создание новой таски без тела","Открыто приложение TO-DO-MVP",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести текст в Title
+3. Не заполнять поле Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Текст отображается в Title
+3. Поле Body остается незаполненным
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. 
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+234,"Create New TO-DO without Title","Создание новой таски без названия","Открыто приложение TO-DO-MVP",,,high,normal,functional,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ничего не вводить в Title
+3. Ввести текст в Body
+4. Тапнуть на кнопку готово
+","1. Открывается экран создания новой таски
+2. Всплывает сообщение о необходимости заполнить обязательное поле Title
+3. Текст в Body отображаются
+4. Всплывает сообщение о необходимости заполнить обязательное поле Title
+","1. 
+2. 
+3. 
+4. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+235,"Tap on back button opens previous screen in New TO-DO","Кнопка назад выполняет ожидаемый функционал","Открыто приложение TO-DO-MVP",,,low,normal,usability,positive,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Тапнуть на кнопку назад
+","1. Открывается экран создания новой таски
+2. Открывается предыдущий экран ( Домашний экран )
+","1. 
+2. кнопка назад = стрелка влево
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+236,"Create New TO-DO with special characters in Title and Body","Создание новой таски cо спец символами","Открыто приложение TO-DO-MVP",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести спец. символы в Title
+3. Ввести спец. символы в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Спец. символы в Title отображаются
+3. Спец. символы в Body отображаются
+4. Открывается Домашний экран и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
+237,"Create New TO-DO with emodjis in Title and Body","Создание новой таски c эмоджи","Открыто приложение TO-DO-MVP",,,medium,normal,other,negative,is-not-automated,actual,no,unknown,classic,"1. Тапнуть на кнопку создания новой таски
+2. Ввести эмоджи в Title
+3. Ввести эмоджи в Body
+4. Тапнуть на кнопку готово
+5. Убедиться что таска создана
+","1. Открывается экран создания новой таски
+2. Эмоджи в Title отображаются
+3. Эмоджи в Body отображаются
+4. Открывается Домашняя страница и всплывает сообщение TO-DO saved
+5. Созданная таска отображается в начале списка ALL TO-DOs
+","1. 
+2. 
+3. Enter your TO-DO here. = Body
+4. 
+5. 
+",,,22,9,"Mobile App Testing. Pavel Polyakov",
