@@ -11,7 +11,7 @@ Full-fledged testing of a mobile application on the Android platform. For testin
  #### [Test Suit](Mobile_App_Cases.csv)
 
 ### Task 2 :
-On the basis of the written documentation, create defect reports
+- On the basis of the written documentation, create defect reports
 
 ### Solution :
 #### [Bug Reports](Mobile_App_BugReports.csv)
