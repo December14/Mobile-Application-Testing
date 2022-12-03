@@ -1,6 +1,6 @@
 # Mobile Application Testing
 ### Task 1 :
-Full-fledged testing of a mobile application on the Android platform. For testing purposes, you can use both a real device and an emulator (Android Studio) The installation file itself can be found here :  
+Full-fledged testing of the mobile application on the Android platform. For testing purposes, you can use both a real device and an emulator (Android Studio) The installation file itself can be found here :  
   >[Installation_APK](https://drive.google.com/file/d/1IkqWnm6z293ETG0MdveKTjrsrWd7WQHz/view?usp=sharing)
 
   - Write a checklist for testing all the functions of the application 
